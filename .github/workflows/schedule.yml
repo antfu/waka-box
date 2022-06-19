@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Install
-        run: npm ci
+        run: npm install
       - name: Update gist
         run: node ./index.js
         env:
